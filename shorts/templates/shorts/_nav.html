@@ -1,0 +1,18 @@
+<nav class="navbar sticky-top navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="container-fluid d-flex justify-content-between">
+      <a class="navbar-brand" href="">ShortenU</a>
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        {% if request.path == '/shortenu/' %}
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{% url 'custom' %}">Custom</a>
+          </li>
+        {% else %}
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{% url 'random' %}">Random</a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>

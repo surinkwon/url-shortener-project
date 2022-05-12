@@ -1,0 +1,10 @@
+[
+{
+    "model": "shorts.shorturl",
+    "pk": 1,
+    "fields": {
+        "original_url": "https://www.youtube.com/watch?v=HdobynnfKQE&list=RDHdobynnfKQE&start_radio=1",
+        "url_name": "wTujRmc"
+    }
+}
+]
